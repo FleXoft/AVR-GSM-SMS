@@ -1,8 +1,11 @@
 # AVR-GSM-SMS
 I bought this development board back around 2013 so I could control our gas boiler at our vacation home on Lake Balaton.
 https://www.olimex.com/Products/AVR/Development/AVR-GSM/
+
 ![AVR-GSM](pics/AVR-GSM-01.jpg)
+
 I just got it out from a box to update a bit using the ChatGPT Codex with the latest available development tools:
+
 ```
 $ avr-gcc --version
 
@@ -27,6 +30,7 @@ Current status:
 - can use the beeper
 - shows GSM status: temp, signal, battery level
 - ...
+
 ```
 $ make
 
